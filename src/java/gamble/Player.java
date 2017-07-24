@@ -81,5 +81,124 @@ public class Player implements Serializable{
         
     }
 
+    /**
+     * @return the lowest
+     */
+    public double getLowest() {
+        return lowest;
+    }
+
+    /**
+     * @param lowest the lowest to set
+     */
+    public void setLowest(double lowest) {
+        this.lowest = lowest;
+    }
+
+    /**
+     * @return the highest
+     */
+    public double getHighest() {
+        return highest;
+    }
+
+    /**
+     * @param highest the highest to set
+     */
+    public void setHighest(double highest) {
+        this.highest = highest;
+    }
+
+    /**
+     * @return the STARTING
+     */
+    public double getSTARTING() {
+        return STARTING;
+    }
+
+    /**
+     * @return the totalGuesses
+     */
+    public int getTotalGuesses() {
+        return totalGuesses;
+    }
+
+    /**
+     * @param totalGuesses the totalGuesses to set
+     */
+    public void setTotalGuesses(int totalGuesses) {
+        this.totalGuesses = totalGuesses;
+    }
+
+    /**
+     * @return the totalCorrect
+     */
+    public int getTotalCorrect() {
+        return totalCorrect;
+    }
+
+    /**
+     * @param totalCorrect the totalCorrect to set
+     */
+    public void setTotalCorrect(int totalCorrect) {
+        this.totalCorrect = totalCorrect;
+    }
+
+    /**
+     * @return the correctStreaks
+     */
+    public int getCorrectStreaks() {
+        return correctStreaks;
+    }
+
+    /**
+     * @param correctStreaks the correctStreaks to set
+     */
+    public void setCorrectStreaks(int correctStreaks) {
+        this.correctStreaks = correctStreaks;
+    }
+
+    /**
+     * @return the initialMoney
+     */
+    public double getInitialMoney() {
+        return initialMoney;
+    }
+
+    /**
+     * @param initialMoney the initialMoney to set
+     */
+    public void setInitialMoney(double initialMoney) {
+        this.initialMoney = initialMoney;
+    }
+
+    /**
+     * @return the highestMoney
+     */
+    public double getHighestMoney() {
+        return highestMoney;
+    }
+
+    /**
+     * @param highestMoney the highestMoney to set
+     */
+    public void setHighestMoney(double highestMoney) {
+        this.highestMoney = highestMoney;
+    }
+
+    /**
+     * @return the lowestMoney
+     */
+    public double getLowestMoney() {
+        return lowestMoney;
+    }
+
+    /**
+     * @param lowestMoney the lowestMoney to set
+     */
+    public void setLowestMoney(double lowestMoney) {
+        this.lowestMoney = lowestMoney;
+    }
+
     
 }

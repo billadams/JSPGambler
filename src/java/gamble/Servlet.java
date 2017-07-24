@@ -39,8 +39,6 @@ public class Servlet extends HttpServlet {
         Random rando = new Random();
         int numToShow = rando.nextInt(bound) + 1;
         
-        
-
         if (action == null) {
             action = "nothing";
         }
